@@ -10,7 +10,7 @@ app
 - - - controller.js
 ```
 
-> plugins/myplugin.js
+plugins/myplugin.js
 ```
 var selous = require('selous');
 
@@ -24,8 +24,7 @@ function MyPlugin() {
 
 module.exports = selous.plugin('MyPlugin', MyPlugin);
 ```
-
-> api/mymodule/controller.js
+api/mymodule/controller.js
 ```
 var selous = require('selous');
 var MyPlugin = selous.plugin('MyPlugin');
