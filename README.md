@@ -1,5 +1,5 @@
 # Selous
-A library used to reference nodejs application modules by name rather than by path
+A library used to reference nodejs application modules by name
 
 ```
 app
@@ -40,3 +40,7 @@ function MyController() {
 }
 module.exports = selous.controller('MyController', MyController);
 ```
+
+
+Selous is inspired by the Mongoose ODM (http://mongoosejs.org)
+More information about Selous' Mongoose - https://en.wikipedia.org/wiki/Selous%27_mongoose
