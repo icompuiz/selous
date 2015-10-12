@@ -3,6 +3,7 @@
 function Selous() {
 
 	var modules = {};
+	var models = {};
 	var controllers = {};
 	var plugins = {};
 	
@@ -25,6 +26,7 @@ function Selous() {
 	};
 
 	this.module = handleRequest.bind(this, modules);
+	this.model = handleRequest.bind(this, models);
 	this.controller = handleRequest.bind(this, controllers);
 	this.plugin =  handleRequest.bind(this, plugins);
 
