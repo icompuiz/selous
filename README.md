@@ -27,7 +27,7 @@ module.exports = selous.plugin('MyPlugin', MyPlugin);
 api/mymodule/controller.js
 ```
 var selous = require('selous');
-var MyPlugin = selous.plugin('MyPlugin');
+var MyPlugin = selous.require('MyPlugin');
 
 function MyController() {
 	
@@ -38,7 +38,7 @@ function MyController() {
 	}
 
 }
-module.exports = selous.controller('MyController', MyController);
+module.exports = selous.require('MyController', MyController);
 ```
 
 

@@ -2,7 +2,7 @@
   "name": "selous",
   "description": "A library used to register and access nodejs application modules by name rather than by path",
   "author": "Isioma Nnodum <isioma.nnodum@gmail.com>",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "./index.js",
   "repository": {
     "type": "git",
