@@ -22,15 +22,6 @@ function Selous() {
 		
 	};
 
-	/* Deprecated */
-	this.module = handleRequest.bind(this, modules);
-	/* Deprecated */
-	this.model = handleRequest.bind(this, modules);
-	/* Deprecated */
-	this.controller = handleRequest.bind(this, modules);
-	/* Deprecated */
-	this.plugin =  handleRequest.bind(this, modules);
-
 	this.require =  handleRequest.bind(this, modules);
 
 }
